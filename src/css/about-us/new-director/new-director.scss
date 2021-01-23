@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.new-director-root {
+    background-color: white;
+    color: $black;
+    #smith-fam {
+        max-width: 60%;
+        margin: 10px
+    }
+    > .MuiGrid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .director-content {
+        // max-width: 500px;
+        margin: 2rem;
+        h2 {
+            font-weight: 300;
+            span {
+                color: $primary;
+            }
+        }
+        .director-title {
+            font-size: 1.7rem;
+            text-decoration: underline;
+        }
+    }
+}

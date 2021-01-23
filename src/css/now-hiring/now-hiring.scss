@@ -1,0 +1,14 @@
+@import '../variables.scss';
+
+.now-hiring-root {
+    background-color: white;
+    color: $primary;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h2 {
+        margin: 0.5rem;
+    }
+    svg {
+        max-height: 125px;
+    }
+}

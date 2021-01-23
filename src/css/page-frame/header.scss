@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+.page-header-root {
+    display: flex;
+    justify-content: center;
+    max-height: 230px;
+    svg {
+        padding: 20px;
+        max-height: 190px;
+        width: auto;
+        @media(max-width: 767px) {
+            padding: 10px;
+            max-height: 120px;
+        }
+    }
+}

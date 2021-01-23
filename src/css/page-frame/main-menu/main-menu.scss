@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+.main-menu-root {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .menu-button {
+        display: none;
+        color: $primary;
+        @media(max-width: 767px) {
+            display: initial;
+        }
+    }
+    .content-side {
+        display: none;
+        .MuiButton-text {
+            width: max-content;
+        }
+        @media(min-width: 767px){
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+    }
+    &.drawer {
+        height: 100vh;
+        min-width: 300px;
+        background: $primary;
+        flex-flow: column;
+        justify-content: start;
+        .drawer-header {
+            max-height: 25vh;
+        }
+        .content-side {
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+        }
+        & svg {
+            max-height: 120px;
+            padding: 2rem;
+            width: auto;
+        }
+        a {
+            color: white;
+        }
+        @media(max-width: 767px) {
+            width: 80vw;
+        }
+    }
+}

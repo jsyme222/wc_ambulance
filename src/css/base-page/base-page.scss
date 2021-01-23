@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+.base-page-root {
+
+  max-width: 100%;
+  .page-title-root {
+    padding: 0.5rem;
+    background-color: $black;
+    color: white;
+  }
+}

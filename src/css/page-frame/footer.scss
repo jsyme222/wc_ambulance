@@ -1,0 +1,10 @@
+@import '../variables.scss';
+
+.footer-root {
+    background: $primary;
+    svg {
+        padding: 1rem;
+        max-width: 150px;
+        height: auto;
+    }
+}

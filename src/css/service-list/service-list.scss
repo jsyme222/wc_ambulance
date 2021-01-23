@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.service-list-root {
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    .service-grid-container {
+        background-color: white;
+    }
+}
+.service-item-root {
+    padding: 1rem;
+    h1 {
+        font-weight: 500;
+        margin: 0;
+    }
+    .item-image-container {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 100%;
+        }
+    }
+}
