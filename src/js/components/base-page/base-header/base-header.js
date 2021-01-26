@@ -1,5 +1,5 @@
 import "../../../../css/base-page/base-header.scss";
-import Logo from "../../logo-components/logo";
+// import Logo from "../../logo-components/logo";
 
 export default function BaseHeader({ headerBackground, content }) {
   return (
